@@ -57,7 +57,7 @@ function renderPeople() {
   });
 
   // Append ul to body
-  (0, _jquery2['default'])('body').html($ul);
+  (0, _jquery2['default'])('.list').html($ul);
 };
 
 // Fetch and render data
@@ -131,7 +131,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 function PersonTemplate(data) {
-  return "\n  <li>" + data.FirstName + " is from " + data.Birthplace + "</li>\n\n  ";
+  return "\n  <li>" + data.FirstName + " was born in " + data.Birthplace + " and is a " + data.Occupation + ".</li>\n\n  ";
 };
 
 exports["default"] = PersonTemplate;

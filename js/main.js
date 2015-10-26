@@ -36,11 +36,9 @@ function renderPeople () {
   });
 
   // Append ul to body
-  $('body').html($ul);
+  $('.list').html($ul);
 
 };
-
-
 
 // Fetch and render data
 people.fetch().then(renderPeople);
