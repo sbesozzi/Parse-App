@@ -1,3 +1,5 @@
-## Welcome to My Repo
+# Parse App
 
-> I am your Readme.md file, you should probably update me.
+> Creating an app using PARSE database
+
+- Deployed version at http://tiy.sarah.parseapp.surge.sh/
